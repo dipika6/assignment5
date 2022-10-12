@@ -8,14 +8,14 @@ pipeline {
 	  }
 	  stages{
 	  
-	    /*stage('stage1-22Q2'){
+	    stage('stage1-22Q2'){
 			     steps {
 				       sh "docker stop 22Q2-httpd"
 				       sh "docker rm 22Q2-httpd"
 					   sh "docker rmi httpd"
 				       sh "docker volume rm vol-22Q2"
 				   }
-			   } */
+			   } 
 	  
 	          stage('docker-volume-22Q2'){
 		           steps {
